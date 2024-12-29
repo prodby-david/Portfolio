@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+body{
+    color: #303030;
+    @apply bg-white dark:bg-darkmode dark:text-gray-100;
+}
