@@ -8,14 +8,14 @@ const Qualification = () => {
 
     <div id='qualification' className='pt-[100px]'>
 
-      <div>
+      <div data-aos='fade-up' data-aos-duration='1500' data-aos-delay='800'>
         <h2 className='text-tertiary text-md md:text-base font-semibold text-center'>Qualification</h2>
         <p className='text-sm text-center text-text-color'>My Educational Background</p>
       </div>
 
       <div className='flex flex-col sm:grid justify-items-center gap-[50px] sm:grid-cols-[220px_220px] sm:grid-rows-[140px_140px] pt-[100px] sm:justify-center sm:justify-items-stretch sm:gap-0'>
 
-          <div className='sm:col-span-2 sm:row-span-1 sm:text-left text-sm ml-[24px]'>
+          <div className='sm:col-span-2 sm:row-span-1 sm:text-left text-sm ml-[24px]' data-aos='fade-down' data-aos-duration='1500' data-aos-delay='1000'>
             <h3 className='text-tertiary font-semibold'>Pateros Technological College</h3>
             <div className='text-text-color'>
               <p>Information Technology</p>
@@ -23,7 +23,7 @@ const Qualification = () => {
             </div>
           </div>
     
-          <div className='sm:col-span-2 text-right text-sm mr-[24px]'>
+          <div className='sm:col-span-2 text-right text-sm mr-[24px]' data-aos='fade-up' data-aos-duration='1500' data-aos-delay='1000'>
             <h3 className='text-tertiary font-semibold'>STI College Global City</h3>
             <div className='text-text-color'>
               <p>Information Technology</p>

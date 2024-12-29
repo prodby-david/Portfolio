@@ -16,15 +16,15 @@ const Navigation = () => {
 
   return (  
 
-    <nav className='flex items-center justify-around py-8 sm:py-6 md:py-4 w-full fixed top-0 left-0 z-20 bg-white dark:bg-darkmode'>
+    <nav className='flex items-center justify-around py-8 sm:py-6 md:py-4 w-full fixed top-0 left-0 z-20 bg-white dark:bg-darkmode' data-aos='fade-down' data-aos-duration='1500'>
 
-      <div className='text-tertiary text-sm sm:text-md'>
+      <div className='text-tertiary text-sm sm:text-md' >
         <h2><a href="https://github.com/prodby-david">@prodby.david</a></h2>
       </div>
 
       <div className={`${nav} absolute top-16 left-0 z-15 w-full md:w-auto md:flex md:items-center md:relative md:top-0`}>
 
-        <ul className={`flex flex-col items-center bg-font-color text-white md:flex-row md:bg-transparent md:text-font-color`}>
+        <ul className={`flex flex-col items-center bg-font-color text-white md:flex-row md:bg-transparent md:text-font-color` } >
           
             <li className='px-3 py-4 text-sm sm:text-md dark:text-white'> 
               <Link to='home' smooth={true} duration={800} onClick={navController} className='transition-colors duration-200 hover:text-tertiary cursor-pointer'>Home
@@ -55,7 +55,7 @@ const Navigation = () => {
         
       </div>
 
-      <div className='flex gap-5'>
+      <div className='flex gap-5' data-aos='fade-down' data-aos-duration='1500'>
         <DarkModeToggle />
        <button>
             <FontAwesomeIcon icon={navlinks ? faTimes : faBars}  onClick={() => (showNavlinks(!navlinks))} className={`text-lg md:hidden transform transition-all duration-300 ease-in-out ${
