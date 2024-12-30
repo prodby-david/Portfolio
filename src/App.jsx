@@ -6,6 +6,7 @@ import Qualification from '@/pages/qualification';
 import Skills from './pages/skills';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Projects from './pages/projects';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Qualification />
       <Skills />
+      <Projects />
       
     </div>
   )
